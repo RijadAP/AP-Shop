@@ -13,7 +13,7 @@ namespace API.Controllers
     public class DetailedProductController : ControllerBase
     {
         [HttpGet("{id}")]
-        ActionResult<FullProduct> GetProductDetails()
+        ActionResult<FullProduct> GetProductDetails(int id)
         {
             return Ok("Get product details using id " + id);
         }
