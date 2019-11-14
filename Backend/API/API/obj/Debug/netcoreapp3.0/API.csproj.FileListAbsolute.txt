@@ -110,3 +110,5 @@ C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\obj\Debug\netcoreapp3.0
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\obj\Debug\netcoreapp3.0\API.pdb
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0\DTOs.dll
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0\DTOs.pdb
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0\EntityModels.dll
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0\EntityModels.pdb

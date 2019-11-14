@@ -2506,6 +2506,19 @@
         "runtime": {
           "bin/placeholder/DTOs.dll": {}
         }
+      },
+      "EntityModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EntityModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EntityModels.dll": {}
+        }
       }
     }
   },
@@ -8128,11 +8141,17 @@
       "type": "project",
       "path": "../DTOs/DTOs.csproj",
       "msbuildProject": "../DTOs/DTOs.csproj"
+    },
+    "EntityModels/1.0.0": {
+      "type": "project",
+      "path": "../EntityModels/EntityModels.csproj",
+      "msbuildProject": "../EntityModels/EntityModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "DTOs >= 1.0.0",
+      "EntityModels >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 3.0.0",
       "Microsoft.Extensions.Logging.Debug >= 3.0.0",
@@ -8172,6 +8191,9 @@
           "projectReferences": {
             "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DTOs\\DTOs.csproj": {
               "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DTOs\\DTOs.csproj"
+            },
+            "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\EntityModels\\EntityModels.csproj": {
+              "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\EntityModels\\EntityModels.csproj"
             }
           }
         }

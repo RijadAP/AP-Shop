@@ -25,6 +25,7 @@
       "API/1.0.0": {
         "dependencies": {
           "DTOs": "1.0.0",
+          "EntityModels": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "3.0.0",
           "Microsoft.Extensions.Logging.Debug": "3.0.0",
@@ -2010,6 +2011,17 @@
         },
         "compile": {
           "DTOs.dll": {}
+        }
+      },
+      "EntityModels/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.0.0"
+        },
+        "runtime": {
+          "EntityModels.dll": {}
+        },
+        "compile": {
+          "EntityModels.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.0.0.0": {
@@ -4777,6 +4789,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "DTOs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntityModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
