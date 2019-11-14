@@ -1,6 +1,5 @@
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\EntityModels\bin\Debug\netcoreapp3.0\EntityModels.deps.json
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\EntityModels\bin\Debug\netcoreapp3.0\EntityModels.dll
-C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\EntityModels\obj\Debug\netcoreapp3.0\EntityModels.csprojAssemblyReference.cache
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\EntityModels\obj\Debug\netcoreapp3.0\EntityModels.AssemblyInfoInputs.cache
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\EntityModels\obj\Debug\netcoreapp3.0\EntityModels.AssemblyInfo.cs
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\EntityModels\bin\Debug\netcoreapp3.0\EntityModels.runtimeconfig.json

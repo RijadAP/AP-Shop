@@ -1,7 +1,6 @@
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DTOs\bin\Debug\netcoreapp3.0\DTOs.deps.json
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DTOs\bin\Debug\netcoreapp3.0\DTOs.dll
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DTOs\bin\Debug\netcoreapp3.0\DTOs.pdb
-C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DTOs\obj\Debug\netcoreapp3.0\DTOs.csprojAssemblyReference.cache
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DTOs\obj\Debug\netcoreapp3.0\DTOs.AssemblyInfoInputs.cache
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DTOs\obj\Debug\netcoreapp3.0\DTOs.AssemblyInfo.cs
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DTOs\obj\Debug\netcoreapp3.0\DTOs.dll
