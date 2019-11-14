@@ -7,3 +7,4 @@ C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\EntityModels\bin\Debug\netc
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\EntityModels\bin\Debug\netcoreapp3.0\EntityModels.pdb
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\EntityModels\obj\Debug\netcoreapp3.0\EntityModels.dll
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\EntityModels\obj\Debug\netcoreapp3.0\EntityModels.pdb
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\EntityModels\obj\Debug\netcoreapp3.0\EntityModels.csprojAssemblyReference.cache
