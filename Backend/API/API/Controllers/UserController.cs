@@ -26,9 +26,9 @@ namespace API.Controllers
         }
 
         [HttpGet("{userId}")]
-        public ActionResult GetUserByID(int userId)
+        public Users GetUserByID(int userId)
         {
-            return Ok(User);
+            return _context.Users.SingleOrDefault(u => u.Id == userId);
         }
 
     }
