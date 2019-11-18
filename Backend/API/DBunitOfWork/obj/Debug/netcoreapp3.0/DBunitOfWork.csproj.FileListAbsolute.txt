@@ -5,3 +5,4 @@ C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBunitOfWork\bin\Debug\netc
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBunitOfWork\bin\Debug\netcoreapp3.0\DBunitOfWork.pdb
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBunitOfWork\obj\Debug\netcoreapp3.0\DBunitOfWork.dll
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBunitOfWork\obj\Debug\netcoreapp3.0\DBunitOfWork.pdb
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBunitOfWork\obj\Debug\netcoreapp3.0\DBunitOfWork.csprojAssemblyReference.cache

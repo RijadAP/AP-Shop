@@ -3,4 +3,3 @@ C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBManegement\bin\Debug\DBMa
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBManegement\bin\Debug\DBManegement.pdb
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBManegement\obj\Debug\DBManegement.dll
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBManegement\obj\Debug\DBManegement.pdb
-C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBManegement\obj\Debug\DBManegement.sqlprojAssemblyReference.cache

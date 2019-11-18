@@ -6,3 +6,6 @@ C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBRepositories\obj\Debug\ne
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBRepositories\obj\Debug\netcoreapp3.0\DBRepositories.AssemblyInfo.cs
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBRepositories\obj\Debug\netcoreapp3.0\DBRepositories.dll
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBRepositories\obj\Debug\netcoreapp3.0\DBRepositories.pdb
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBRepositories\bin\Debug\netcoreapp3.0\EntityModels.dll
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBRepositories\bin\Debug\netcoreapp3.0\EntityModels.pdb
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBRepositories\obj\Debug\netcoreapp3.0\DBRepositories.csproj.CopyComplete
