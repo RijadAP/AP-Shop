@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "DBunitOfWork/1.0.0": {
+        "runtime": {
+          "DBunitOfWork.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DBunitOfWork/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

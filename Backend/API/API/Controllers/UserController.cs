@@ -14,7 +14,7 @@ namespace API.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private  APShopContext _context;
+        private APShopContext _context;
 
         public UserController(APShopContext context) => _context = context;
 
@@ -24,5 +24,12 @@ namespace API.Controllers
         {
             return _context.Users;
         }
+
+        [HttpGet("{userId}")]
+        public ActionResult GetUserByID(int userId)
+        {
+            return Ok(User);
+        }
+
     }
 }

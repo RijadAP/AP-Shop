@@ -1,0 +1,8 @@
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBRepositories\bin\Debug\netcoreapp3.0\DBRepositories.deps.json
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBRepositories\bin\Debug\netcoreapp3.0\DBRepositories.dll
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBRepositories\bin\Debug\netcoreapp3.0\DBRepositories.pdb
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBRepositories\obj\Debug\netcoreapp3.0\DBRepositories.csprojAssemblyReference.cache
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBRepositories\obj\Debug\netcoreapp3.0\DBRepositories.AssemblyInfoInputs.cache
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBRepositories\obj\Debug\netcoreapp3.0\DBRepositories.AssemblyInfo.cs
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBRepositories\obj\Debug\netcoreapp3.0\DBRepositories.dll
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBRepositories\obj\Debug\netcoreapp3.0\DBRepositories.pdb

@@ -1,0 +1,13 @@
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DataAccessLayer\bin\Debug\netcoreapp3.0\DataAccessLayer.deps.json
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DataAccessLayer\bin\Debug\netcoreapp3.0\DataAccessLayer.dll
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DataAccessLayer\bin\Debug\netcoreapp3.0\DataAccessLayer.pdb
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DataAccessLayer\bin\Debug\netcoreapp3.0\DTOs.dll
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DataAccessLayer\bin\Debug\netcoreapp3.0\DTOs.pdb
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DataAccessLayer\obj\Debug\netcoreapp3.0\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DataAccessLayer\obj\Debug\netcoreapp3.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DataAccessLayer\obj\Debug\netcoreapp3.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DataAccessLayer\obj\Debug\netcoreapp3.0\DataAccessLayer.csproj.CopyComplete
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DataAccessLayer\obj\Debug\netcoreapp3.0\DataAccessLayer.dll
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DataAccessLayer\obj\Debug\netcoreapp3.0\DataAccessLayer.pdb
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DataAccessLayer\bin\Debug\netcoreapp3.0\EntityModels.dll
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DataAccessLayer\bin\Debug\netcoreapp3.0\EntityModels.pdb
