@@ -4,12 +4,12 @@ using System.Text;
 
 namespace BLL
 {
-    class User : IUser
+    class User
     {
-        //private IUserMenager
-        //public bool CheckIfUSerExists(string username)
-        //{
+        //private IUserMenager                                                                                                           
+    //    public bool CheckIfUSerExists(string username)
+    //    {
 
-        //}
+    //    }
     }
 }

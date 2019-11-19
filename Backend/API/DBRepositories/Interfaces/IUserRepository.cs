@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DBRepositories
 {
-    interface IUserRepository
+    public interface IUserRepository
     {
         int LogIn(string username, string password);
         void Register(Users user);

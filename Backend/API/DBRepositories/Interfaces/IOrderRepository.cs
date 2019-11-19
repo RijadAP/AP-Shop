@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DBRepositories
 {
-    interface IOrderRepository
+    public interface IOrderRepository
     {
 
     }

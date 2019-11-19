@@ -1,0 +1,8 @@
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\BLL\obj\Debug\netcoreapp3.0\BLL.AssemblyInfoInputs.cache
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\BLL\obj\Debug\netcoreapp3.0\BLL.AssemblyInfo.cs
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\BLL\bin\Debug\netcoreapp3.0\BLL.deps.json
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\BLL\bin\Debug\netcoreapp3.0\BLL.dll
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\BLL\bin\Debug\netcoreapp3.0\BLL.pdb
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\BLL\obj\Debug\netcoreapp3.0\BLL.dll
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\BLL\obj\Debug\netcoreapp3.0\BLL.pdb
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\BLL\obj\Debug\netcoreapp3.0\BLL.csprojAssemblyReference.cache

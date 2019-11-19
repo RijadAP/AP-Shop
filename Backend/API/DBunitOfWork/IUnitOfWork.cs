@@ -1,18 +1,20 @@
-﻿using System;
+﻿using DBRepositories;
+using DTOs;
+using EntityModels;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DBunitOfWork
+
+namespace DBUnitOfWork
 {
     public interface IUnitOfWork
     {
-    //     {
-    //    IUserRepository User { get; }
-    //    ICartRepository Cart { get; }
-    //    IProductRepository Product { get; }
-    //    IOrderRepository Order { get; }
+        IUserRepository User { get; }
+        IProductRepository Product { get; }
+        IOrderRepository Order { get; }
+        ICartRepository Cart { get; }
 
-    //    void Commit();
-    //}
-}
+        void commit();
+    }
 }

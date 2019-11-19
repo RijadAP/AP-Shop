@@ -4,9 +4,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DBRepositories.Classes
+namespace DBRepositories
 {
-    class OrderRepository : IOrderRepository
+    public class OrderRepository : IOrderRepository
     {
         private DbSet<Order> _dbSet;
         public OrderRepository(APShopContext context)

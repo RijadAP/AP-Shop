@@ -7,7 +7,7 @@ using System.Text;
 
 namespace DBRepositories
 {
-    class ProductRepository : IProductRepository
+    public class ProductRepository : IProductRepository
     {
 
         private DbSet<Product> _dbSet;

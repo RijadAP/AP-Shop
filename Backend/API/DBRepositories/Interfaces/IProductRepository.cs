@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DBRepositories
 {
-    interface IProductRepository
+    public interface IProductRepository
     {
         Product GetById(object id);
         List<Product> GetByName(string name);

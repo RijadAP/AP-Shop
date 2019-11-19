@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DBRepositories
 {
-    interface ICartRepository
+    public interface ICartRepository
     {
         void CreateCart(Cart cart);
     }

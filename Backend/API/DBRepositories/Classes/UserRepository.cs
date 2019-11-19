@@ -7,7 +7,7 @@ using System.Text;
 
 namespace DBRepositories
 {
-    class UserRepository : IUserRepository
+    public class UserRepository : IUserRepository
     {
         private DbSet<Users> _dbSet;
 

@@ -6,7 +6,7 @@ using System.Text;
 
 namespace DBRepositories
 {
-    class CartRepository : ICartRepository
+    public class CartRepository : ICartRepository
     {
 
         private DbSet<Cart> _dbSet;
