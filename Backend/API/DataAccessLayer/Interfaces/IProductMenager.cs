@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataAccessLayer.Interfaces
+namespace DataAccessLayer
 {
     public interface IProductMenager
     {

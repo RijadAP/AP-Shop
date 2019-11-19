@@ -31,6 +31,138 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
+              "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DBUnitOfWork\\DBUnitOfWork.csproj": {
+                "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DBUnitOfWork\\DBUnitOfWork.csproj"
+              },
+              "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DTOs\\DTOs.csproj": {
+                "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DTOs\\DTOs.csproj"
+              },
+              "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\EntityModels\\EntityModels.csproj": {
+                "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\EntityModels\\EntityModels.csproj"
+              },
+              "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\Mapper\\Mapper.csproj": {
+                "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\Mapper\\Mapper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DBRepositories\\DBRepositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DBRepositories\\DBRepositories.csproj",
+        "projectName": "DBRepositories",
+        "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DBRepositories\\DBRepositories.csproj",
+        "packagesPath": "C:\\Users\\AP LAB2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DBRepositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AP LAB2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\EntityModels\\EntityModels.csproj": {
+                "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\EntityModels\\EntityModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DBUnitOfWork\\DBUnitOfWork.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DBUnitOfWork\\DBUnitOfWork.csproj",
+        "projectName": "DBUnitOfWork",
+        "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DBUnitOfWork\\DBUnitOfWork.csproj",
+        "packagesPath": "C:\\Users\\AP LAB2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DBUnitOfWork\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AP LAB2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DBRepositories\\DBRepositories.csproj": {
+                "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DBRepositories\\DBRepositories.csproj"
+              },
               "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DTOs\\DTOs.csproj": {
                 "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DTOs\\DTOs.csproj"
               },
@@ -170,6 +302,79 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\Mapper\\Mapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\Mapper\\Mapper.csproj",
+        "projectName": "Mapper",
+        "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\Mapper\\Mapper.csproj",
+        "packagesPath": "C:\\Users\\AP LAB2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\Mapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AP LAB2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DTOs\\DTOs.csproj": {
+                "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DTOs\\DTOs.csproj"
+              },
+              "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\EntityModels\\EntityModels.csproj": {
+                "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\EntityModels\\EntityModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [

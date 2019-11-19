@@ -10,6 +10,8 @@ namespace DataAccessLayer
     public interface IUserMenager
     {
         DTOs.User GetUser(int Id);
-        int RegisterUser(DTOs.User loginUser);
+        int LogInUser(string username, string password);
+        int RegisterUser(DTOs.User loginUser, DateTime lastUpdated);
+        bool CheckIfUserExists(string username);
     }
 }

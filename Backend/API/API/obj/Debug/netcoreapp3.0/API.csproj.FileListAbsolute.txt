@@ -112,4 +112,7 @@ C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0\EntityModels.dll
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0\EntityModels.pdb
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0\AutoMapper.dll
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\obj\Debug\netcoreapp3.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0\Mapper.dll
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0\Mapper.pdb

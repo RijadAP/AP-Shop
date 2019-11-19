@@ -15,6 +15,19 @@
           "lib/netstandard2.0/AutoMapper.dll": {}
         }
       },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2532,6 +2545,22 @@
         "runtime": {
           "bin/placeholder/EntityModels.dll": {}
         }
+      },
+      "Mapper/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "AutoMapper": "9.0.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
+          "DTOs": "1.0.0",
+          "EntityModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mapper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mapper.dll": {}
+        }
       }
     }
   },
@@ -2551,6 +2580,19 @@
         "lib/netstandard2.0/AutoMapper.dll",
         "lib/netstandard2.0/AutoMapper.pdb",
         "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
+      "sha512": "szI4yeRIM7GWe9JyekW0dKYehPB0t6M+I55fPeCebN6PhS7zQZa0eG3bgOnOx+eP3caSNoE7KEJs2rk7MLsh8w==",
+      "type": "package",
+      "path": "automapper.extensions.microsoft.dependencyinjection/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
+        "automapper.extensions.microsoft.dependencyinjection.nuspec",
+        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
+        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.pdb"
       ]
     },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
@@ -8176,13 +8218,20 @@
       "type": "project",
       "path": "../EntityModels/EntityModels.csproj",
       "msbuildProject": "../EntityModels/EntityModels.csproj"
+    },
+    "Mapper/1.0.0": {
+      "type": "project",
+      "path": "../Mapper/Mapper.csproj",
+      "msbuildProject": "../Mapper/Mapper.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "AutoMapper >= 9.0.0",
+      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 7.0.0",
       "DTOs >= 1.0.0",
       "EntityModels >= 1.0.0",
+      "Mapper >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 3.0.0",
       "Microsoft.Extensions.Logging.Debug >= 3.0.0",
@@ -8225,6 +8274,9 @@
             },
             "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\EntityModels\\EntityModels.csproj": {
               "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\EntityModels\\EntityModels.csproj"
+            },
+            "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\Mapper\\Mapper.csproj": {
+              "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\Mapper\\Mapper.csproj"
             }
           }
         }
@@ -8241,6 +8293,10 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[9.0.0, )"
+          },
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[7.0.0, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",

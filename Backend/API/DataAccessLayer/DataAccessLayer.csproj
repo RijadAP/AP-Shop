@@ -5,12 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DBUnitOfWork\DBUnitOfWork.csproj" />
     <ProjectReference Include="..\DTOs\DTOs.csproj" />
     <ProjectReference Include="..\EntityModels\EntityModels.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Classes\" />
+    <ProjectReference Include="..\Mapper\Mapper.csproj" />
   </ItemGroup>
 
 </Project>

@@ -6,7 +6,7 @@ using System.Text;
 
 namespace DBUnitOfWork
 {
-    class UnitOfWork : IUnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
         private readonly APShopContext _context;
         private UserRepository _user;
