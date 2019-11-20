@@ -26,7 +26,9 @@
         "dependencies": {
           "AutoMapper": "9.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
+          "BLL": "1.0.0",
           "DTOs": "1.0.0",
+          "DataAccessLayer": "1.0.0",
           "EntityModels": "1.0.0",
           "Mapper": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.0.0",
@@ -2036,6 +2038,55 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
+        }
+      },
+      "BLL/1.0.0": {
+        "dependencies": {
+          "DataAccessLayer": "1.0.0"
+        },
+        "runtime": {
+          "BLL.dll": {}
+        },
+        "compile": {
+          "BLL.dll": {}
+        }
+      },
+      "DataAccessLayer/1.0.0": {
+        "dependencies": {
+          "DBUnitOfWork": "1.0.0",
+          "DTOs": "1.0.0",
+          "EntityModels": "1.0.0",
+          "Mapper": "1.0.0"
+        },
+        "runtime": {
+          "DataAccessLayer.dll": {}
+        },
+        "compile": {
+          "DataAccessLayer.dll": {}
+        }
+      },
+      "DBRepositories/1.0.0": {
+        "dependencies": {
+          "EntityModels": "1.0.0"
+        },
+        "runtime": {
+          "DBRepositories.dll": {}
+        },
+        "compile": {
+          "DBRepositories.dll": {}
+        }
+      },
+      "DBUnitOfWork/1.0.0": {
+        "dependencies": {
+          "DBRepositories": "1.0.0",
+          "DTOs": "1.0.0",
+          "EntityModels": "1.0.0"
+        },
+        "runtime": {
+          "DBUnitOfWork.dll": {}
+        },
+        "compile": {
+          "DBUnitOfWork.dll": {}
         }
       },
       "DTOs/1.0.0": {
@@ -4848,6 +4899,26 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataAccessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DBRepositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DBUnitOfWork/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "DTOs/1.0.0": {
       "type": "project",

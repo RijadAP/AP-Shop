@@ -2523,6 +2523,63 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "DataAccessLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BLL.dll": {}
+        }
+      },
+      "DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "DBUnitOfWork": "1.0.0",
+          "DTOs": "1.0.0",
+          "EntityModels": "1.0.0",
+          "Mapper": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccessLayer.dll": {}
+        }
+      },
+      "DBRepositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "EntityModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DBRepositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DBRepositories.dll": {}
+        }
+      },
+      "DBUnitOfWork/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "DBRepositories": "1.0.0",
+          "DTOs": "1.0.0",
+          "EntityModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DBUnitOfWork.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DBUnitOfWork.dll": {}
+        }
+      },
       "DTOs/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
@@ -8209,6 +8266,26 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "BLL/1.0.0": {
+      "type": "project",
+      "path": "../BLL/BLL.csproj",
+      "msbuildProject": "../BLL/BLL.csproj"
+    },
+    "DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../DataAccessLayer/DataAccessLayer.csproj",
+      "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
+    },
+    "DBRepositories/1.0.0": {
+      "type": "project",
+      "path": "../DBRepositories/DBRepositories.csproj",
+      "msbuildProject": "../DBRepositories/DBRepositories.csproj"
+    },
+    "DBUnitOfWork/1.0.0": {
+      "type": "project",
+      "path": "../DBUnitOfWork/DBUnitOfWork.csproj",
+      "msbuildProject": "../DBUnitOfWork/DBUnitOfWork.csproj"
+    },
     "DTOs/1.0.0": {
       "type": "project",
       "path": "../DTOs/DTOs.csproj",
@@ -8229,7 +8306,9 @@
     ".NETCoreApp,Version=v3.0": [
       "AutoMapper >= 9.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 7.0.0",
+      "BLL >= 1.0.0",
       "DTOs >= 1.0.0",
+      "DataAccessLayer >= 1.0.0",
       "EntityModels >= 1.0.0",
       "Mapper >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.0.0",
@@ -8269,6 +8348,12 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
+            "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\BLL\\BLL.csproj"
+            },
+            "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DataAccessLayer\\DataAccessLayer.csproj"
+            },
             "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DTOs\\DTOs.csproj": {
               "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DTOs\\DTOs.csproj"
             },

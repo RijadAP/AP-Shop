@@ -116,3 +116,11 @@ C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\obj\Debug\netcoreapp3.0\API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0\Mapper.dll
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0\Mapper.pdb
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0\BLL.dll
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0\DataAccessLayer.dll
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0\DBRepositories.dll
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0\DBUnitOfWork.dll
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0\BLL.pdb
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0\DataAccessLayer.pdb
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0\DBRepositories.pdb
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\API\bin\Debug\netcoreapp3.0\DBUnitOfWork.pdb

@@ -14,6 +14,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using AutoMapper;
 using Mapper;
+using DataAccessLayer;
+using BLL;
 
 namespace API
 {
@@ -32,7 +34,12 @@ namespace API
         {
             services.AddAutoMapper(typeof(AutoMapperFunctionality));
             services.AddDbContext<APShopContext>();
+            
             services.AddControllers();
+            services.AddScoped<IProductMenager, ProductMenager>();
+            services.AddScoped<IUserMenager, UserMenager>();
+            services.AddScoped<IUser, User>();
+            services.AddScoped<IValidation, Validation>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

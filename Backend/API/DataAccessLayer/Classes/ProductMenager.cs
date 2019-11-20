@@ -8,7 +8,7 @@ using System.Text;
 
 namespace DataAccessLayer
 {
-    class ProductMenager : IProductMenager
+    public class ProductMenager : IProductMenager
     {
         private IMapper _mapper;
 

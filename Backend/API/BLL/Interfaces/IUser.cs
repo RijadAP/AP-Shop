@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BLL
 {
-    interface IUser
+    public interface IUser
     {
         bool CheckIfUSerExists(string username);
     }
