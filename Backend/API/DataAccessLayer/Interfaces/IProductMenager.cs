@@ -6,6 +6,6 @@ namespace DataAccessLayer
 {
     public interface IProductMenager
     {
-        DTOs.Product GetProduct(String Search);
+        DTOs.Products GetProduct(String Search);
     }
 }
