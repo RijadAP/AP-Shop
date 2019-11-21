@@ -12,7 +12,7 @@ namespace DBRepositories
         private DbSet<Cart> _dbSet;
         public CartRepository(APShopContext context)
         {
-            this._dbSet = context.Cart;
+            _dbSet = context.Cart;
         }
         public void CreateCart(Cart cart)
         {

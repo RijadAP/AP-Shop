@@ -80,7 +80,8 @@ namespace API.Controllers
             {
                 return BadRequest("User info was not provided!");
             }
-            int result;
+            
+            int result = 0;
 
             try
             {
@@ -91,7 +92,7 @@ namespace API.Controllers
             {
                 BadRequest("NoUser");
             }
-            return Ok("Succesfull registration " + user.Id);
+            return Ok("Succesfull registration " + result);
         }
 
 

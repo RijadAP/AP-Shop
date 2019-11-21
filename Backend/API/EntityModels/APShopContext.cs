@@ -36,11 +36,7 @@ namespace EntityModels
         {
             modelBuilder.Entity<Cart>(entity =>
             {
-                entity.Property(e => e.Id).ValueGeneratedNever();
-
                 entity.Property(e => e.DateLastUpdated).HasColumnType("datetime");
-
-                entity.Property(e => e.UserId).ValueGeneratedOnAdd();
 
                 entity.HasOne(d => d.User)
                     .WithMany(p => p.Cart)

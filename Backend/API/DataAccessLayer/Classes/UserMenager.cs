@@ -53,23 +53,51 @@ namespace DataAccessLayer
             }
         }
 
-        public int RegisterUser(DTOs.User loginUser, DateTime LastUpdated)
+        public int RegisterUser(DTOs.User loginUser, DateTime lastUpdated)
         {
+            //if (loginUser == null)
+            //{
+            //    throw new ArgumentNullException();
+            //}
+            //using (APShopContext context = new APShopContext())
+            //{
+            //    UnitOfWork UoW = new UnitOfWork(context);
+            //    EntityModels.Users user = _mapper.Map<EntityModels.Users>(loginUser);
+            //    UoW.User.Register(user);
+
+
+
+            //    EntityModels.Cart cart = new EntityModels.Cart();
+
+            //    user.Cart.Add(cart);
+
+            //    UoW.commit();
+
+            //    return user.Id;
+
             if (loginUser == null)
             {
-                throw new ArgumentNullException();
+                throw new ArgumentNullException("User info was not provided!");
             }
             using (APShopContext context = new APShopContext())
             {
-                UnitOfWork UoW = new UnitOfWork(context);
+                UnitOfWork uow = new UnitOfWork(context);
+
                 EntityModels.Users user = _mapper.Map<EntityModels.Users>(loginUser);
-                UoW.User.Register(user);
+                uow.User.Register(user);
 
-                EntityModels.Cart cart = new EntityModels.Cart();
+                //uow.commit();
+
+                // Creating, mapping and adding the cart to the user
+                EntityModels.Cart cart = new EntityModels.Cart() { DateLastUpdated = lastUpdated };
                 user.Cart.Add(cart);
+                //context.Cart.Add(cart);
 
-                UoW.commit();
+                uow.commit();
+
                 return user.Id;
+
+            
             }
         }
 
