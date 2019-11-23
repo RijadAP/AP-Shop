@@ -45,7 +45,7 @@ namespace API.Controllers
 
 
         [HttpGet]
-        public ActionResult GetLogin(string username, string password)
+        public ActionResult GetLogin(string username,string password)
         {
             bool isValid = _validation.ValidateLogin(username, password);
 
@@ -74,7 +74,7 @@ namespace API.Controllers
         }
 
         [HttpPost]
-        public IActionResult Reggister ([FromBody]DTOs.User user)
+        public IActionResult Register ([FromBody]DTOs.User user)
         {
             if (user == null)
             {

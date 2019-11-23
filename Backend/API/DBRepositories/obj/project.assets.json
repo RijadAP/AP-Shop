@@ -1223,6 +1223,16 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "DTOs/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/DTOs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTOs.dll": {}
+        }
+      },
       "EntityModels/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
@@ -4849,6 +4859,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "DTOs/1.0.0": {
+      "type": "project",
+      "path": "../DTOs/DTOs.csproj",
+      "msbuildProject": "../DTOs/DTOs.csproj"
+    },
     "EntityModels/1.0.0": {
       "type": "project",
       "path": "../EntityModels/EntityModels.csproj",
@@ -4857,6 +4872,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
+      "DTOs >= 1.0.0",
       "EntityModels >= 1.0.0"
     ]
   },
@@ -4891,6 +4907,9 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
+            "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DTOs\\DTOs.csproj": {
+              "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DTOs\\DTOs.csproj"
+            },
             "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\EntityModels\\EntityModels.csproj": {
               "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\EntityModels\\EntityModels.csproj"
             }

@@ -31,6 +31,9 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
+              "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DTOs\\DTOs.csproj": {
+                "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\DTOs\\DTOs.csproj"
+              },
               "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\EntityModels\\EntityModels.csproj": {
                 "projectPath": "C:\\Users\\AP LAB2\\Desktop\\Testing\\AP-Shop\\Backend\\API\\EntityModels\\EntityModels.csproj"
               }

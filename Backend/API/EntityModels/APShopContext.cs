@@ -86,6 +86,11 @@ namespace EntityModels
 
             modelBuilder.Entity<Product>(entity =>
             {
+                entity.Property(e => e.Code)
+                    .IsRequired()
+                    .HasMaxLength(200)
+                    .IsUnicode(false);
+
                 entity.Property(e => e.Image)
                     .IsRequired()
                     .HasMaxLength(500)
@@ -149,6 +154,10 @@ namespace EntityModels
 
             modelBuilder.Entity<Users>(entity =>
             {
+                entity.HasIndex(e => e.Username)
+                    .HasName("UQ__Users__536C85E46DB02BA6")
+                    .IsUnique();
+
                 entity.Property(e => e.Password)
                     .IsRequired()
                     .HasMaxLength(50)

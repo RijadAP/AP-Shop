@@ -2556,6 +2556,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
+          "DTOs": "1.0.0",
           "EntityModels": "1.0.0"
         },
         "compile": {

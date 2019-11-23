@@ -2067,6 +2067,7 @@
       },
       "DBRepositories/1.0.0": {
         "dependencies": {
+          "DTOs": "1.0.0",
           "EntityModels": "1.0.0"
         },
         "runtime": {

@@ -14,8 +14,8 @@ namespace API.Controllers
     {
         private Product[] products = new Product[]
         {
-            new Product {Id = 1, Name = "CoolBike", Price = 10},
-            new Product {Id = 2, Name = "CoolShirt", Price = 15},
+            new Product {Id = 1, Name = "Teady Bear", Price = 10},
+            new Product {Id = 2, Name = "Shirt", Price = 15},
             new Product {Id = 3, Name = "CoolSkirt", Price = 20}
         };
 
