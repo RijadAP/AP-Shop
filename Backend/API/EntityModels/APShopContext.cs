@@ -113,27 +113,7 @@ namespace EntityModels
             {
                 entity.Property(e => e.Id).ValueGeneratedNever();
 
-                entity.Property(e => e.Color)
-                    .IsRequired()
-                    .HasMaxLength(20)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.Condition)
-                    .IsRequired()
-                    .HasMaxLength(20)
-                    .IsUnicode(false);
-
                 entity.Property(e => e.DatePublished).HasColumnType("date");
-
-                entity.Property(e => e.Gender)
-                    .IsRequired()
-                    .HasMaxLength(20)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.Model)
-                    .IsRequired()
-                    .HasMaxLength(20)
-                    .IsUnicode(false);
 
                 entity.Property(e => e.PublishedBy)
                     .IsRequired()

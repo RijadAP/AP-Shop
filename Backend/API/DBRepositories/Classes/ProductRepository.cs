@@ -38,36 +38,36 @@ namespace DBRepositories
             return _dbSet.SingleOrDefault(p => p.Code == code);
         }
 
-        //public List<Product> GetBySearch(DTOs.SearchBy searchBy)
-        //{
-        //    var query = _context.Product.AsQueryable();
+        public List<Product> GetBySearch(DTOs.SearchBy searchBy)
+        {
+            var query = _context.Product.AsQueryable();
 
-        //    if (searchBy.Search != null)
-        //    {
-        //        query = query.Where(p => p.Name.Contains(searchBy.Search));
-        //    }
-        //    if (searchBy.Category > 0)
-        //    {
-        //        query = query.Where(p => p.ProductDetails.SingleOrDefault().Model == (int)searchBy.Category);
-        //    }
-        //    if (searchBy.Gender > 0)
-        //    {
-        //        query = query.Where(p => p.ProductDetails.SingleOrDefault().Gender == (int)searchBy.Gender);
-        //    }
-        //    if (searchBy.Condition > 0)
-        //    {
-        //        query = query.Where(p => p.ProductDetails.SingleOrDefault().Condition == (int)searchBy.Condition);
-        //    }
-        //    if (searchBy.FreeShipping == true)
-        //    {
-        //        query = query.Where(p => p.ShippingPrice == 0);
-        //    }
-        //    if (searchBy.PriceRange.FromPrice > 0 && searchBy.PriceRange.ToPrice > 0)
-        //    {
-        //        query = query.Where(p => p.Price > (decimal)searchBy.PriceRange.FromPrice && p.Price < (decimal)searchBy.PriceRange.ToPrice);
-        //    }
-        //    return query.AsNoTracking().OrderBy(p => p.Name).ToList();
-        //}
+            if (searchBy.Search != null)
+            {
+                query = query.Where(p => p.Name.Contains(searchBy.Search));
+            }
+            if (searchBy.Categories > 0)
+            {
+                query = query.Where(p => p.ProductDetails.SingleOrDefault().Model == (int)searchBy.Categories);
+            }
+            if (searchBy.Gender > 0)
+            {
+                query = query.Where(p => p.ProductDetails.SingleOrDefault().Gender == (int)searchBy.Gender);
+            }
+            if (searchBy.Condition > 0)
+            {
+                query = query.Where(p => p.ProductDetails.SingleOrDefault().Condition == (int)searchBy.Condition);
+            }
+            if (searchBy.FreeShippig == true)
+            {
+                query = query.Where(p => p.ShippingPrice == 0);
+            }
+            if (searchBy.PriceRange.From > 0 && searchBy.PriceRange.To > 0)
+            {
+                query = query.Where(p => p.Price > (double)searchBy.PriceRange.From && p.Price < (double)searchBy.PriceRange.To);
+            }
+            return query.AsNoTracking().OrderBy(p => p.Name).ToList();
+        }
 
         public void AddProduct(Product product)
         {

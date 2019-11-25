@@ -13,7 +13,7 @@ namespace DBRepositories
 
         List<Product> GetByName(string name);
 
-        //List<Product> GetBySearch(DTOs.SearchBy user);
+        List<Product> GetBySearch(DTOs.SearchBy user);
 
         Product GetByCode(string code);
         void AddProduct(Product product);

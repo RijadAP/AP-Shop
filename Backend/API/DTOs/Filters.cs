@@ -8,7 +8,7 @@ namespace DTOs
 
     public class SearchBy
     {
-        public string Sreach { get; set; }
+        public string Search { get; set; }
         public Categories Categories { get; set; }
         public Genders Gender { get; set; }
         public Conditions Condition { get; set; }
