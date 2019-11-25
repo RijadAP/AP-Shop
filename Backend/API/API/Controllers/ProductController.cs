@@ -23,11 +23,15 @@ namespace API.Controllers
 
         private readonly IProductMenager _productMenager;
         private readonly IValidation _validation;
+        private readonly ICurrentDate _currentDate;
+        private readonly IGuidGenerator _guidGenerator;
 
-        public ProductController(IProductMenager productMenager, IValidation validation)
+        public ProductController(IProductMenager productMenager, IValidation validation, ICurrentDate currentDate, IGuidGenerator guidGenerator)
         {
             _productMenager = productMenager;
             _validation = validation;
+            _currentDate = currentDate;
+            _guidGenerator = guidGenerator;
         }
 
 
@@ -48,14 +52,19 @@ namespace API.Controllers
             return Ok(ListOfProducts);
         }
 
-        //[HttpPost]
-        //public ActionResult AddProduct ([FromBody]FullProduct product)
-        //{
-        //    if (product != null)
-        //    {
-        //        product.productDetails
-        //    }
-        //}
+        [HttpPost]
+        public IActionResult AddProduct ([FromBody]FullProduct product)
+        {
+            if (product != null)
+            {
+                product.productDetails.DatePublished = DateTime.Now;
+                product.product.Code = _guidGenerator.GetGuid();
+                _productMenager.AddProduct(product.product, product.productDetails);
+
+                return Ok(product.product.Id);
+            }
+            else return BadRequest();
+        }
 
      
     }

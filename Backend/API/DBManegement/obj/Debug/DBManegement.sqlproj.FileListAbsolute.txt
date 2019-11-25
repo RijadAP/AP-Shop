@@ -7,3 +7,4 @@ C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBManegement\obj\Debug\Mode
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBManegement\obj\Debug\refactor.xml
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBManegement\obj\Debug\postdeploy.sql
 C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBManegement\obj\Debug\predeploy.sql
+C:\Users\AP LAB2\Desktop\Testing\AP-Shop\Backend\API\DBManegement\obj\Debug\DBManegement.sqlprojAssemblyReference.cache

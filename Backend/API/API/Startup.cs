@@ -40,6 +40,8 @@ namespace API
             services.AddScoped<IUserMenager, UserMenager>();
             services.AddScoped<IUser, User>();
             services.AddScoped<IValidation, Validation>();
+            services.AddScoped<IGuidGenerator, GuidGenerator>();
+            services.AddScoped<ICurrentDate, CurrentDate>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
