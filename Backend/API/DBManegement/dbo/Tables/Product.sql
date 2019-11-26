@@ -7,8 +7,11 @@
     [ShortDescription] VARCHAR (500) NOT NULL,
     [Price]            FLOAT (53)    NOT NULL,
     [ShippingPrice]    FLOAT (53)    NOT NULL,
+    [Available]        INT           NOT NULL,
     CONSTRAINT [PK_Product] PRIMARY KEY CLUSTERED ([Id] ASC)
 );
+
+
 
 
 

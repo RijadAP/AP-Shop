@@ -53,7 +53,7 @@ namespace API.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddProduct ([FromBody]FullProduct product)
+        public IActionResult AddProduct([FromBody]FullProduct product)
         {
             if (product != null)
             {
@@ -65,6 +65,35 @@ namespace API.Controllers
             }
             else return BadRequest();
         }
+
+        [HttpGet("{productId}")]
+        public ActionResult<Product> GetProductById(int productId)
+        {
+            if (productId != 0)
+            {
+                var Searchresult = _productMenager.GetFullProduct(productId);
+                if (Searchresult != null)
+                {
+                    return Ok(Searchresult);
+                }
+                else return BadRequest("Product not found!");
+            }
+            else return BadRequest("Product is not provided!");
+        }
+        [HttpPut]
+        public ActionResult UpdateProduct ([FromBody]FullProduct product)
+        {
+            if (product != null)
+            {
+                product.productDetails.DatePublished = _currentDate.GetDate();
+                var Succesfull = _productMenager.UpdateProduct(product.product, product.productDetails);
+
+                if (Succesfull) return Ok("Product succesfully updated!");
+                else return BadRequest("Product is not valid");
+            }
+            else return BadRequest("Product was not provided!");
+        }
+
 
      
     }

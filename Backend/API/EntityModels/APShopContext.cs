@@ -111,8 +111,6 @@ namespace EntityModels
 
             modelBuilder.Entity<ProductDetails>(entity =>
             {
-                entity.Property(e => e.Id).ValueGeneratedNever();
-
                 entity.Property(e => e.DatePublished).HasColumnType("date");
 
                 entity.Property(e => e.PublishedBy)

@@ -19,6 +19,7 @@ namespace EntityModels
         public string ShortDescription { get; set; }
         public double Price { get; set; }
         public double ShippingPrice { get; set; }
+        public int Available { get; set; }
 
         public virtual ICollection<OrderProduct> OrderProduct { get; set; }
         public virtual ICollection<ProductDetails> ProductDetails { get; set; }

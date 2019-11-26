@@ -9,5 +9,7 @@
         public string ShortDescription { get; set; }
         public double Price { get; set; }
         public double ShippingPrice { get; set; }
+        public int Available { get; set; }
+        public bool IsActive { get; set; }
     }
 }

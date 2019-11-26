@@ -35,7 +35,7 @@ namespace DBRepositories
 
         public Product GetByCode(string code)
         {
-            return _dbSet.SingleOrDefault(p => p.Code == code);
+            return _dbSet.SingleOrDefault(p => p.Code == code && p.IsActive == true);
         }
 
         public List<Product> GetBySearch(DTOs.SearchBy searchBy)
