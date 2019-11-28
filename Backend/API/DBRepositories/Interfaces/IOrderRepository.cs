@@ -6,6 +6,7 @@ namespace DBRepositories
 {
     public interface IOrderRepository
     {
+        List<EntityModels.Order> GetAllOrders(int id);
 
     }
 }

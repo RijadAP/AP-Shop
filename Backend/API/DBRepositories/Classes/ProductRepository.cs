@@ -96,5 +96,24 @@ namespace DBRepositories
         {
             return _dbSet.Any(p => p.Id == Id && p.IsActive == true);
         }
+
+        public bool CheckProductIsAvailable(int id, int quantity)
+        {
+            return _dbSet.Any(p => p.Id == id && p.IsActive == true && quantity <= p.Available);
+        }
+
+        public void ReduceInStock(int ProductId, int quantity)
+        {
+            var FindProduct = _context.Product.SingleOrDefault(p => p.Id == ProductId && p.IsActive == true);
+
+            if (FindProduct != null)
+            {
+                FindProduct.Available -= quantity;
+            }
+            else
+            {
+                throw new Exception("Product not found!");
+            }
+        }
     }
 }

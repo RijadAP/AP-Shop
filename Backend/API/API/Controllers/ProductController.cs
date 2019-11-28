@@ -61,7 +61,7 @@ namespace API.Controllers
                 product.product.Code = _guidGenerator.GetGuid();
                 _productMenager.AddProduct(product.product, product.productDetails);
 
-                return Ok(product.product.Id);
+                return Ok("Product successfully added.");
             }
             else return BadRequest();
         }
@@ -92,6 +92,15 @@ namespace API.Controllers
                 else return BadRequest("Product is not valid");
             }
             else return BadRequest("Product was not provided!");
+        }
+
+        [HttpDelete("{code}")]
+        public ActionResult DeleteProduct (string code)
+        {
+            var DeletedProduct = _productMenager.DeleteProduct(code);
+
+            if (DeletedProduct) return Ok("Product with code " + code + " is deleted");
+            else return BadRequest("Product not found!");
         }
 
 

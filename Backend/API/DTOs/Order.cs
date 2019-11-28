@@ -10,6 +10,6 @@ namespace DTOs
         public int UserId { get; set; }
         public DateTime Date { get; set; }
         public float TotalPrice { get; set; }
-        public OrderItem[] Items { get; set; }
+        public List<OrderItem> Items { get; set; }
     }
 }

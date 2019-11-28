@@ -105,6 +105,7 @@ namespace DataAccessLayer
                 if (code != null)
                 {
                     var Delete = UoW.Product.DeleteProduct(code);
+                    UoW.commit();
                     if (Delete) return true;
                     else return false;
                 }

@@ -19,6 +19,8 @@ namespace DBRepositories
         void AddProduct(Product product);
         bool DeleteProduct(string code);
 
-        bool CheckProduct(int Id);
+        bool CheckProduct(int Id); //If it exists
+        bool CheckProductIsAvailable(int id, int quantity); //Check if product is activ as well as checks if its in stock
+        void ReduceInStock(int ProductId, int quantity);
     }
 }

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace DBRepositories
@@ -14,9 +15,16 @@ namespace DBRepositories
             this._dbSet = context.Order;
         }
 
-        public Order GetById (object id)
+        public List<EntityModels.Order> GetAllOrders(int id)
         {
-            throw new NotImplementedException();
+            if (id != 0)
+            {
+                return _dbSet.Include("OrderProduct.Order").Include("Product").Where(p => p.UserId == id).ToList();
+            }
+            else
+            {
+                return new List<Order>();
+            }
         }
     }
 }

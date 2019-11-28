@@ -13,5 +13,6 @@ namespace DataAccessLayer
         int LogInUser(string username, string password);
         int RegisterUser(DTOs.User loginUser, DateTime lastUpdated);
         bool CheckIfUserExists(string username);
+        //void AddToCart (int id, DTOs.)
     }
 }
